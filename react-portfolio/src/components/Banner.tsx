@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-import React from "react";
-=======
->>>>>>> dev
 import "bootstrap/dist/css/bootstrap.min.css";
-//import "bootstrap/dist/css/bootstrap-grid.css";
-
 const Banner = () => {
   return (
     <>
