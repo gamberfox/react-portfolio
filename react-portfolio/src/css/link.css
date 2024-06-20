@@ -1,0 +1,9 @@
+.javi-link{
+    color:rgb(71, 194, 232);
+    background-color: black;
+    transition: color 0.3s;
+}
+.javi-link:hover{
+    color:rgb(196, 240, 52);
+    background-color: rgb(44, 44, 171);
+}

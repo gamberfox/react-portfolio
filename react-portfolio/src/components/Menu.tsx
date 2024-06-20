@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../css/link.css";
 export const Menu = () => {
   return (
     <div>
@@ -12,16 +13,7 @@ export const Menu = () => {
           activeKey="/"
         >
           <Nav.Item className="mx-7">
-            <Nav.Link
-              as={Link}
-              to="/"
-              className="mx-7 hover-text-danger"
-              style={{
-                transition: "color 0.3s",
-                backgroundColor: "purple",
-                color: "black",
-              }}
-            >
+            <Nav.Link as={Link} to="/" className="javi-link">
               Home
             </Nav.Link>
           </Nav.Item>
