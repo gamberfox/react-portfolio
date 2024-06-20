@@ -1,7 +1,7 @@
 .javi-link{
     color:black;
     background-color: rgb(202, 240, 248);
-    transition: color 1s;
+    transition: color 2s;
     font-size: 30px;
     max-width:500px;
     padding-inline: 50px;
@@ -23,7 +23,7 @@
 
 .javi-nav{
     justify-content: center;
-    background-color: aqua;
+    background-color: burlywood;
     padding: 10px;
 }
 

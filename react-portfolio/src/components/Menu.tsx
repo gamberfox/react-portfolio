@@ -41,7 +41,7 @@ export const Menu = () => {
               to="/contact"
               className={tab === "2" ? "javi-link-clicked" : "javi-link"}
             >
-              Contact to another world
+              another world
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -52,6 +52,16 @@ export const Menu = () => {
               className={tab === "3" ? "javi-link-clicked active" : "javi-link"}
             >
               square
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              eventKey="4"
+              to="/below"
+              className={tab === "1" ? "javi-link-clicked" : "javi-link"}
+            >
+              About
             </Nav.Link>
           </Nav.Item>
         </Nav>
