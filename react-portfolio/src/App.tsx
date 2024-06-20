@@ -1,4 +1,6 @@
 import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Banner from "./components/Banner";
@@ -10,7 +12,7 @@ function App() {
   return (
     <>
       <div>
-        <img src="./assets/react.svg" alt="salero" />
+        <img src="/vite.svg" alt="salero" />
       </div>
 
       <Banner />
