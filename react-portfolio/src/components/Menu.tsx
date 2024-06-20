@@ -12,7 +12,7 @@ export const Menu = () => {
   };
   return (
     <div>
-      <Container>
+      <Container color="blue">
         <Nav className="javi-nav" activeKey={tab} onSelect={handleSelect}>
           <Nav.Item>
             <Nav.Link
