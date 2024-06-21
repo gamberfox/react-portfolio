@@ -12,7 +12,7 @@ export default defineConfig({
         //'i18next',
         //'react-i18next',
         //'./i18next-http-backend',
-        //'./i18next-browser-languagedetector'
+        'i18next-browser-languagedetector'
       ]
     }
   }})
