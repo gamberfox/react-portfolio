@@ -1,11 +1,19 @@
 .javi-link{
     color:black;
     background-color: rgb(202, 240, 248);
+<<<<<<< HEAD
     transition: color 2s;
     font-size: 30px;
     max-width:500px;
     padding-inline: 30px;
     font-weight: bold;
+=======
+    transition: color 1s;
+    font-size: 30px;
+    max-width:500px;
+    padding-inline: 50px;
+    margin: 0 10px;
+>>>>>>> 6248db39ccdad5e3e135aecc72f37a2f07dbbc47
 }
 .javi-link:hover{
     color:rgb(200, 240, 250);
@@ -13,19 +21,38 @@
 }
 
 .javi-link-clicked{
+<<<<<<< HEAD
     color:blue;
     background-color: rgb(0, 200, 200);
     font-size: 30px;
     max-width:500px;
     padding-inline: 30px;
     font-weight: bold;
+=======
+    color:red;
+    background-color: rgb(0, 200, 200);
+    font-size: 30px;
+    max-width:500px;
+    padding-inline: 50px;
+    margin: 0 10px;
+>>>>>>> 6248db39ccdad5e3e135aecc72f37a2f07dbbc47
 }
 
 .javi-nav{
     justify-content: center;
+<<<<<<< HEAD
     background-color: burlywood;
 }
 
 .javi-nav .nav-link.active {
     color: blue;
+=======
+    background-color: aqua;
+    padding: 10px;
+}
+
+.javi-nav .nav-link.active {
+    color: red;
+    font-weight: bold;
+>>>>>>> 6248db39ccdad5e3e135aecc72f37a2f07dbbc47
   }
