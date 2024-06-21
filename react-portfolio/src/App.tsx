@@ -24,14 +24,14 @@ function App() {
         <div
           className="card"
           style={{
-            maxWidth: "800px",
+            maxWidth: "600px",
             padding: "3px",
-            fontSize: "30px",
+            fontSize: "20px",
             fontWeight: "bold",
           }}
         >
           <div className="d-grid d-flex">
-            <div className="card-body" style={{ width: "500px" }}>
+            <div className="card-body" style={{ width: "200px" }}>
               {t("you can choose another language")}
             </div>
             <button className="btn ln-btn" onClick={() => changeLanguage("es")}>

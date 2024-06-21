@@ -13,6 +13,9 @@ const resources = {
       "you can choose another language":"You can choose another language",
       "spanish":"spanish",
       "english":"english",
+
+      "language-proficiency":"I have a high proficiency in the english language, this has helped me since a lot of resources for learning are in english"
+
       "home":"home"
     }
   },
@@ -23,6 +26,8 @@ const resources = {
       "you can choose another language":"Puedes elegir otro idioma",
       "spanish":"español",
       "english":"ingles",
+
+      "language-proficiency":"mi manejo del ingles es excepcional, esto me ha ayudado ya que muchos recursos para aprender sobre programacion estan en ingles"
 
       "home":"inicio"
     }
