@@ -4,22 +4,41 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Banner from "./components/Banner";
 import Menu from "./components/Menu";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useTranslation } from "react-i18next";
+import "./css/javi-btn.css";
 
 function App() {
   const [count, setCount] = useState(0);
   const jon = () => <h1>test</h1>;
   const jon2 = () => <h1>test2</h1>;
+
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <>
       <Router>
-        <div className="card" style={{ maxWidth: "400px", padding: "1px" }}>
-          <div className="d-grid d-flex max-width-sm">
-            <div className="card-body">Puedes elegir otro idioma</div>
-            <button className="btn btn-primary" type="button">
-              Español
+        <div
+          className="card"
+          style={{
+            maxWidth: "800px",
+            padding: "3px",
+            fontSize: "30px",
+            fontWeight: "bold",
+          }}
+        >
+          <div className="d-grid d-flex">
+            <div className="card-body" style={{ width: "500px" }}>
+              {t("you can choose another language")}
+            </div>
+            <button className="btn ln-btn" onClick={() => changeLanguage("es")}>
+              {t("spanish")}
             </button>
-            <button className="btn btn-primary" type="button">
-              Ingles
+            <button className="btn ln-btn" onClick={() => changeLanguage("en")}>
+              {t("english")}
             </button>
           </div>
         </div>

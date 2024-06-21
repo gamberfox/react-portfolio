@@ -4,8 +4,8 @@
     transition: color 2s;
     font-size: 30px;
     max-width:500px;
-    padding-inline: 50px;
-    margin: 0 10px;
+    padding-inline: 30px;
+    letter-spacing: 1px;
 }
 .javi-link:hover{
     color:rgb(200, 240, 250);
@@ -17,17 +17,18 @@
     background-color: rgb(0, 200, 200);
     font-size: 30px;
     max-width:500px;
-    padding-inline: 50px;
-    margin: 0 10px;
+    padding-inline: 30px;
+    letter-spacing: 0px;
+    /* transform: scale(1.2); */
 }
 
 .javi-nav{
     justify-content: center;
     background-color: burlywood;
-    padding: 10px;
 }
 
 .javi-nav .nav-link.active {
     color: blue;
     font-weight: bold;
+    
   }

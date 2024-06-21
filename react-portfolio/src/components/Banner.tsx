@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Banner = () => {
   return (
     <>
-      <div>Banner</div>
       <div className="container">
         <div className="row">
           <div className="card mb-3" style={{ width: "540px" }}>
@@ -34,13 +33,6 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="col">
-            <img
-              src="javi5.jpg"
-              alt="fail"
-              style={{ width: "200px", height: "auto" }}
-            />
-          </div>
           <div className="col">
             <a href="https://github.com/gamberfox" target="_blank">
               <img
