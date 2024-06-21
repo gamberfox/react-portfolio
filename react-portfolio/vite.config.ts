@@ -7,9 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'vue', // Exclude 'vue' from the bundle
-        'react', // Exclude 'react' from the bundle
-        'some-other-lib', // Exclude another library from the bundle
+        //'vue', // Exclude 'vue' from the bundle
+        //'react', // Exclude 'react' from the bundle
         'i18next',
         'react-i18next',
         'i18next-http-backend',
