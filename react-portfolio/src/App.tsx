@@ -10,11 +10,11 @@ import Menu from "./components/Menu";
 import Task from "./components/Task";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
   const jon = () => <h1>test</h1>;
   const jon2 = () => <h1>test2</h1>;
 
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation<string>();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
