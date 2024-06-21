@@ -41,11 +41,7 @@ export const Menu = () => {
               to="/contact"
               className={tab === "2" ? "javi-link-clicked" : "javi-link"}
             >
-<<<<<<< HEAD
               another world
-=======
-              Contact to another world
->>>>>>> 6248db39ccdad5e3e135aecc72f37a2f07dbbc47
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -58,7 +54,6 @@ export const Menu = () => {
               square
             </Nav.Link>
           </Nav.Item>
-<<<<<<< HEAD
           <Nav.Item>
             <Nav.Link
               as={Link}
@@ -69,8 +64,6 @@ export const Menu = () => {
               About
             </Nav.Link>
           </Nav.Item>
-=======
->>>>>>> 6248db39ccdad5e3e135aecc72f37a2f07dbbc47
         </Nav>
       </Container>
     </div>

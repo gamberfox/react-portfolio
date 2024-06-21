@@ -2,10 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Banner = () => {
   return (
     <>
-<<<<<<< HEAD
-=======
-      <div>Banner</div>
->>>>>>> 6248db39ccdad5e3e135aecc72f37a2f07dbbc47
       <div className="container">
         <div className="row">
           <div className="card mb-3" style={{ width: "540px" }}>
@@ -38,16 +34,6 @@ const Banner = () => {
           </div>
 
           <div className="col">
-<<<<<<< HEAD
-=======
-            <img
-              src="javi5.jpg"
-              alt="fail"
-              style={{ width: "200px", height: "auto" }}
-            />
-          </div>
-          <div className="col">
->>>>>>> 6248db39ccdad5e3e135aecc72f37a2f07dbbc47
             <a href="https://github.com/gamberfox" target="_blank">
               <img
                 src="github-mark.svg"
