@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Banner from "./components/Banner";
-import Menu from "./components/Menu";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useTranslation } from "react-i18next";
 import "./css/javi-btn.css";
+import Banner from "./components/Banner";
+import Menu from "./components/Menu";
+import Task from "./components/Task";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -47,9 +49,11 @@ function App() {
         <button onClick={() => setCount(count + 1)}>test and {count}</button>
         <Banner />
         <Menu />
+        <Task />
         <Routes>
           <Route path="/" element={jon2()} />
           <Route path="/about" element={jon()} />
+          <Route path="/task" element={<Task />} />
         </Routes>
       </Router>
     </>
