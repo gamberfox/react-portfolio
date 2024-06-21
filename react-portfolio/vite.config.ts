@@ -10,8 +10,10 @@ export default defineConfig({
         'vue', // Exclude 'vue' from the bundle
         'react', // Exclude 'react' from the bundle
         'some-other-lib', // Exclude another library from the bundle
-        "i18next-http-backend"
+        'i18next',
+        'react-i18next',
+        'i18next-http-backend',
+        'i18next-browser-languagedetector'
       ]
     }
-  }
-})
+  }})
