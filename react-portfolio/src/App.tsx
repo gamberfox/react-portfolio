@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Banner from "./components/Banner";
 import Menu from "./components/Menu";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { CardBody } from "react-bootstrap";
 
 function App() {
   const [count, setCount] = useState(0);

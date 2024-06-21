@@ -59,7 +59,7 @@ export const Menu = () => {
               as={Link}
               eventKey="4"
               to="/below"
-              className={tab === "1" ? "javi-link-clicked" : "javi-link"}
+              className={tab === "4" ? "javi-link-clicked" : "javi-link"}
             >
               About
             </Nav.Link>
