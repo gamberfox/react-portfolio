@@ -9,10 +9,10 @@ export default defineConfig({
       external: [
         //'vue', // Exclude 'vue' from the bundle
         //'react', // Exclude 'react' from the bundle
-        'i18next',
-        'react-i18next',
-        'i18next-http-backend',
-        'i18next-browser-languagedetector'
+        //'i18next',
+        //'react-i18next',
+        //'./i18next-http-backend',
+        //'i18next-browser-languagedetector'
       ]
     }
   }})
