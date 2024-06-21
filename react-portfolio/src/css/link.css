@@ -5,7 +5,7 @@
     font-size: 30px;
     max-width:500px;
     padding-inline: 30px;
-    letter-spacing: 1px;
+    font-weight: bold;
 }
 .javi-link:hover{
     color:rgb(200, 240, 250);
@@ -18,8 +18,7 @@
     font-size: 30px;
     max-width:500px;
     padding-inline: 30px;
-    letter-spacing: 0px;
-    /* transform: scale(1.2); */
+    font-weight: bold;
 }
 
 .javi-nav{
@@ -29,6 +28,4 @@
 
 .javi-nav .nav-link.active {
     color: blue;
-    font-weight: bold;
-    
   }

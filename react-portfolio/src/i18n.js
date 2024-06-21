@@ -12,7 +12,8 @@ const resources = {
       "description": "This is an example of i18n in React.",
       "you can choose another language":"You can choose another language",
       "spanish":"spanish",
-      "english":"english"
+      "english":"english",
+      "home":"home"
     }
   },
   es: {
@@ -21,7 +22,9 @@ const resources = {
       "description": "Este es un ejemplo de i18n en React.",
       "you can choose another language":"Puedes elegir otro idioma",
       "spanish":"español",
-      "english":"ingles"
+      "english":"ingles",
+
+      "home":"inicio"
     }
   }
 //   jp: {
